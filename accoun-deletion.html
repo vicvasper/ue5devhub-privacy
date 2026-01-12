@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Deletion - UE5 Dev Hub</title>
+    <style>
+        :root {
+            --bg-color: #0b0e14;
+            --card-bg: #151921;
+            --accent: #3b82f6;
+            --accent-red: #ef4444;
+            --text-main: #e2e8f0;
+            --text-muted: #94a3b8;
+            --border: #2d3748;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.7;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 48px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+        }
+
+        header {
+            border-bottom: 2px solid var(--accent-red);
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0 0 8px 0;
+            font-size: 2.2rem;
+            color: #fff;
+            font-weight: 700;
+        }
+
+        h2 {
+            color: var(--accent);
+            font-size: 1.3rem;
+            margin-top: 32px;
+            margin-bottom: 16px;
+            font-weight: 600;
+        }
+
+        p, li {
+            color: var(--text-muted);
+            font-size: 1rem;
+            margin-bottom: 12px;
+        }
+
+        .last-update {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        ul, ol {
+            padding-left: 24px;
+            margin: 16px 0;
+        }
+
+        li {
+            margin-bottom: 12px;
+        }
+
+        li strong {
+            color: var(--text-main);
+        }
+
+        .warning-card {
+            margin: 24px 0;
+            padding: 24px;
+            background: rgba(239, 68, 68, 0.1);
+            border-left: 4px solid var(--accent-red);
+            border-radius: 0 8px 8px 0;
+        }
+
+        .warning-card h3 {
+            color: var(--accent-red);
+            margin: 0 0 12px 0;
+            font-size: 1.1rem;
+        }
+
+        .warning-card p {
+            margin: 0;
+        }
+
+        .contact-card {
+            margin-top: 32px;
+            padding: 24px;
+            background: rgba(59, 130, 246, 0.08);
+            border-left: 4px solid var(--accent);
+            border-radius: 0 8px 8px 0;
+        }
+
+        .contact-card p {
+            margin: 0 0 12px 0;
+        }
+
+        .contact-card p:last-child {
+            margin-bottom: 0;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .highlight {
+            color: var(--text-main);
+            font-weight: 500;
+        }
+
+        .steps-box {
+            background: rgba(59, 130, 246, 0.05);
+            border-radius: 8px;
+            padding: 24px;
+            margin: 24px 0;
+        }
+
+        .steps-box h3 {
+            color: var(--accent);
+            margin: 0 0 16px 0;
+            font-size: 1.1rem;
+        }
+
+        .steps-box ol {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .email-template {
+            background: #1a1f2e;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 16px 0;
+            font-family: monospace;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .email-template strong {
+            color: var(--accent);
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 20px 12px;
+            }
+            .container {
+                padding: 24px 20px;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Account Deletion</h1>
+        <p class="last-update">Last Updated: January 12, 2026</p>
+    </header>
+
+    <p>At <span class="highlight">UE5 Dev Hub</span>, we respect your right to control your personal data. This page explains how you can request the deletion of your account and what happens to your data when you do.</p>
+
+    <h2>How to Delete Your Account</h2>
+    <p>You can request account deletion through two methods:</p>
+
+    <div class="steps-box">
+        <h3>Option 1: In-App Deletion</h3>
+        <ol>
+            <li>Open <strong>UE5 Dev Hub</strong> on your device.</li>
+            <li>Go to your <strong>Profile</strong> tab.</li>
+            <li>Tap on <strong>Settings</strong> (gear icon).</li>
+            <li>Scroll down and tap <strong>"Delete Account"</strong>.</li>
+            <li>Confirm your decision when prompted.</li>
+        </ol>
+    </div>
+
+    <div class="steps-box">
+        <h3>Option 2: Email Request</h3>
+        <p>Send an email to <a href="mailto:vic.rivasperez@gmail.com">vic.rivasperez@gmail.com</a> with the following information:</p>
+        <div class="email-template">
+            <strong>Subject:</strong> Account Deletion Request - UE5 Dev Hub<br><br>
+            <strong>Body:</strong><br>
+            - Registered email address: [your email]<br>
+            - Username: [your username]<br>
+            - Reason for deletion (optional): [your reason]
+        </div>
+        <p>We will process your request within <strong>7 business days</strong> and send you a confirmation email once completed.</p>
+    </div>
+
+    <h2>What Gets Deleted</h2>
+    <p>When you delete your account, the following data will be permanently removed:</p>
+    <ul>
+        <li><strong>Profile Information:</strong> Your username, email, display name, and profile picture.</li>
+        <li><strong>Account Settings:</strong> All your preferences and configurations.</li>
+        <li><strong>Favorites:</strong> Your list of saved guides.</li>
+        <li><strong>Following Data:</strong> Your list of followed creators.</li>
+        <li><strong>Authentication Data:</strong> Your login credentials and session information.</li>
+    </ul>
+
+    <h2>Your Created Content</h2>
+    <p>For guides and tutorials you have created, you have two options:</p>
+    <ul>
+        <li><strong>Delete All Content:</strong> All your guides will be permanently deleted along with your account.</li>
+        <li><strong>Anonymize Content:</strong> Your guides can remain on the platform but will be attributed to "Deleted User" instead of your username.</li>
+    </ul>
+    <p>Please specify your preference when requesting deletion. If no preference is provided, all content will be deleted by default.</p>
+
+    <div class="warning-card">
+        <h3>Important Warning</h3>
+        <p>Account deletion is <strong>permanent and irreversible</strong>. Once your account is deleted, we cannot recover any of your data, guides, or purchase history. If you have made any in-app purchases, please note that these cannot be refunded or transferred after account deletion.</p>
+    </div>
+
+    <h2>Data Retention</h2>
+    <p>After account deletion, some information may be retained for a limited period:</p>
+    <ul>
+        <li><strong>Transaction Records:</strong> Purchase history may be retained for up to 7 years for tax and legal compliance purposes.</li>
+        <li><strong>Legal Requirements:</strong> Any data required to comply with legal obligations, resolve disputes, or enforce agreements.</li>
+        <li><strong>Anonymized Analytics:</strong> Aggregated, non-identifiable usage statistics may be retained for service improvement.</li>
+    </ul>
+
+    <h2>Processing Time</h2>
+    <ul>
+        <li><strong>In-App Deletion:</strong> Immediate (within 24 hours)</li>
+        <li><strong>Email Request:</strong> Up to 7 business days</li>
+    </ul>
+    <p>You will receive a confirmation email once your account has been successfully deleted.</p>
+
+    <h2>Questions or Concerns</h2>
+    <div class="contact-card">
+        <p>If you have any questions about the account deletion process or need assistance, please contact us:</p>
+        <p><strong>Email:</strong> <a href="mailto:vic.rivasperez@gmail.com">vic.rivasperez@gmail.com</a></p>
+        <p><strong>Response Time:</strong> Within 48 hours</p>
+    </div>
+
+    <h2>Related Policies</h2>
+    <p>For more information about how we handle your data, please review our <a href="privacy-policy.html">Privacy Policy</a>.</p>
+</div>
+
+</body>
+</html>
